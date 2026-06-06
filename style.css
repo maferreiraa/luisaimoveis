@@ -34,10 +34,10 @@ img { width: 100%; display: block; }
 .hero-content { position: relative; z-index: 2; max-width: 780px; }
 .eyebrow { color: var(--gold); text-transform: uppercase; letter-spacing: .22em; font-size: .78rem; font-weight: 700; margin-bottom: 18px; }
 h1,h2,h3 { font-family: var(--title); font-weight: 500; line-height: .95; }
-h1 { font-size: clamp(4rem, 9vw, 8.8rem); max-width: 900px; }
+h1 { font-size: clamp(4rem, 9vw, 6.2rem); max-width: 780px; }
 h2 { font-size: clamp(2.8rem, 6vw, 6rem); }
 h3 { font-size: 2rem; }
-.hero-text { max-width: 590px; margin-top: 26px; font-size: 1.12rem; line-height: 1.7; color: rgba(244,239,230,.88); }
+.hero-text { max-width: 590px; margin-top: 26px; font-size: 1.12rem; line-height: 0.95; color: rgba(244,239,230,.88); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 36px; }
 .btn { display: inline-flex; align-items: center; justify-content: center; padding: 15px 24px; border-radius: 999px; font-size: .86rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; }
 .btn.primary { background: var(--gold); color: var(--green); }
